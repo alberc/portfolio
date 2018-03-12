@@ -1,0 +1,15 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "es"
+title = "Alberto Caro"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 0
+
+[[menu.main]]
+    name = "Sobre mí"
+    url = "about"
+    weight = 5
