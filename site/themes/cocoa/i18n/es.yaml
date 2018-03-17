@@ -1,0 +1,23 @@
+---
+- id: latestPosts
+  translation: "Ultimas entradas"
+
+- id: blogHeading
+  translation: "Blog"
+
+- id: pageNotFound
+  translation: "Lo siento, esta página no existe."
+
+- id: visitHomePage
+  translation: "Visitar el inicio"
+
+- id: readingTime
+  translation:
+    one: "Lectura de un minuto"
+    other: "Lectura de {{ .Count }} minutos"
+
+- id: backToPosts
+  translation: "Volver"
+
+- id: projectsHeading
+  translation: "Proyectos"
