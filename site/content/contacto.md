@@ -6,4 +6,4 @@ draft: false
 
 Puedes ponerte en contacto conmigo mediante [email](mailto:albertocarogallego@gmail.com) o [Twitter](https://twitter.com/alberc_).
 
-Tambien puedes ver el resto de mis perfiles en la sección [_Sobre mí_]({{< relref "sobre-mi#perfiles" >}}).
+También puedes ver el resto de mis perfiles en la sección [_Sobre mí_]({{< relref "sobre-mi#perfiles" >}}).

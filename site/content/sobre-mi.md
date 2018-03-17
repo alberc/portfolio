@@ -16,8 +16,8 @@ Github: [@alberc](https://github.com/alberc)
 Twitter: [@alberc_](https://twitter.com/alberc_)
 
 ### Stack
-- Esta web ha sido realizada con [Hugo](https://gohugo.io) y se encuentra alojada en [Netlify](https://www.netlify.com/), puedes ver el repositorio en mi [Github](https://github.com/alberc/portfolio).
+- Ésta web ha sido realizada con [Hugo](https://gohugo.io) y se encuentra alojada en [Netlify](https://www.netlify.com/). Puedes ver el repositorio en mi [Github](https://github.com/alberc/portfolio).
 - Utilizo los editores [Visual Studio Code](https://code.visualstudio.com/) y [PhpStorm](https://www.jetbrains.com/phpstorm/).
 - Uso como terminal [Cmder](http://cmder.net/).
-- Como entorno de desarrollo, suelo utilizar [Vagrant](https://www.vagrantup.com/) + [Laravel Homestead](https://laravel.com/docs/master/homestead), pero, estoy empezando a mirar [Docker](https://www.docker.com/docker-community).
+- Como entorno de desarrollo, suelo utilizar [Vagrant](https://www.vagrantup.com/) + [Laravel Homestead](https://laravel.com/docs/master/homestead), pero estoy empezando a mirar [Docker](https://www.docker.com/docker-community).
 
