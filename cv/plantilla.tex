@@ -1,0 +1,47 @@
+% Source: https://github.com/xdanaux/moderncv
+\documentclass[11pt,a4paper,sans]{moderncv}        
+
+% Tema seleccionado
+\moderncvstyle{casual}                             
+
+% Color del tema
+\moderncvcolor{blue}        
+
+% Otros ajustes                            
+\nopagenumbers{}
+
+% Encoding
+\usepackage[utf8]{inputenc}                       
+
+% Margenes
+\usepackage[scale=0.75]{geometry}
+
+% Datos personales
+\name{Alberto}{Caro}
+\title{Desarrollador web}
+\phone[mobile]{697~829~122}
+\email{albertocarogallego@gmail.com}
+\homepage{www.cgallego.me}
+\social[linkedin]{alberc}
+\social[twitter]{alberc\_}
+\social[github]{alberc}
+\photo[64pt][0.4pt]{foto.jpg}
+
+\begin{document}
+\makecvtitle
+
+\section{Formación académica y complementaria}
+\cventry{2016--}{DAW}{I.E.S. San Sebastían}{Huelva}{\textit{FP Superior}}{Técnico Superior en Desarrollo de Aplicaciones Web.}  % arguments 3 to 6 can be left empty
+\cventry{2017}{Marketing Digital}{Google Actívate}{Huelva}{\textit{MOOC}}{Curso básico de Marketing Digital.}
+
+\section{Idiomas}
+\cvitemwithcomment{Español}{Nativo}{}
+\cvitemwithcomment{Inglés}{Intermedio}{}
+
+\section{Habilidades}
+\cvdoubleitem{Front-end}{HTML, CSS, Javascript}{Back-end}{PHP, Node}
+\cvdoubleitem{Otros}{Git, SSH}{Herramientas}{npm, Composer, Vagrant}
+\end{document}
+
+
+%% end of file `template.tex'.

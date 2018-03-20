@@ -15,6 +15,11 @@ Github: [@alberc](https://github.com/alberc)
 
 Twitter: [@alberc_](https://twitter.com/alberc_)
 
+LinkedIn: [@alberc](https://www.linkedin.com/in/alberc/)
+
+### Currículum vítae
+[Descargar como PDF](/portfolio.pdf)
+
 ### Stack
 - Ésta web ha sido realizada con [Hugo](https://gohugo.io) y se encuentra alojada en [Netlify](https://www.netlify.com/). Puedes ver el repositorio en mi [Github](https://github.com/alberc/portfolio).
 - Utilizo los editores [Visual Studio Code](https://code.visualstudio.com/) y [PhpStorm](https://www.jetbrains.com/phpstorm/).
