@@ -18,10 +18,10 @@ Twitter: [@alberc_](https://twitter.com/alberc_)
 LinkedIn: [@alberc](https://www.linkedin.com/in/alberc/)
 
 ### Currículum vítae
-[Descargar como PDF](/portfolio.pdf)
+[Descargar como PDF](/files/cv.pdf)
 
 ### Stack
-- Ésta web ha sido realizada con [Hugo](https://gohugo.io) y se encuentra alojada en [Netlify](https://www.netlify.com/). Puedes ver el repositorio en mi [Github](https://github.com/alberc/portfolio).
+- Ésta web ha sido realizada con el framework [Hugo](https://gohugo.io) y se encuentra alojada en [Netlify](https://www.netlify.com/). Puedes ver el repositorio en mi [Github](https://github.com/alberc/portfolio).
 - Utilizo los editores [Visual Studio Code](https://code.visualstudio.com/) y [PhpStorm](https://www.jetbrains.com/phpstorm/).
 - Uso como terminal [Cmder](http://cmder.net/).
 - Como entorno de desarrollo, suelo utilizar [Vagrant](https://www.vagrantup.com/) + [Laravel Homestead](https://laravel.com/docs/master/homestead), pero estoy empezando a mirar [Docker](https://www.docker.com/docker-community).
