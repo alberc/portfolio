@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import useDarkMode from "use-dark-mode";
+import {
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import Icon from "./Icon";
+import Toggle from "./Toggle";
+import "./App.css";
 
 function App() {
+  const darkMode = useDarkMode(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="main">
+      <Toggle checked={darkMode.value} onChange={darkMode.toggle} />
+      <div className="intro">¡Hola, soy Alberto Caro!</div>
+      <div className="tagline">Full stack dev | React dev | Node dev</div>
+
+      <div className="icons-social">
+        <Icon icon={faTwitter} url="https://twitter.com/alberc_" />
+        <Icon icon={faGithub} url="https://github.com/alberc" />
+        <Icon icon={faLinkedin} url="https://linkedin.com/in/alberc/" />
+        <Icon icon={faEnvelope} url="mailto:albertocarogallego@gmail.com" />
+      </div>
+    </main>
   );
 }
 
