@@ -1,5 +1,6 @@
 import React from "react";
 import useDarkMode from "use-dark-mode";
+import Typewriter from "typewriter-effect";
 import {
   faTwitter,
   faGithub,
@@ -18,7 +19,16 @@ function App() {
     <main className="main">
       <Toggle checked={darkMode.value} onChange={darkMode.toggle} />
       <div className="intro">¡Hola, soy Alberto Caro!</div>
-      <div className="tagline">Full stack dev | React dev | Node dev</div>
+      <div className="tagline">
+        <Typewriter
+          options={{
+            strings: "Full stack dev | React dev | Node dev",
+            autoStart: true,
+            delay: 60,
+            loop: false,
+          }}
+        />
+      </div>
 
       <div className="icons-social">
         <Icon icon={faTwitter} url="https://twitter.com/alberc_" />
